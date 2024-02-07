@@ -1,6 +1,6 @@
 # Project-206: Microservice Architecture for Phonebook Web Application using Kubernetes (HELM Package)
 
-- This project aims to deploy a Microservice Architecture-based Phonebook Web Application using Python Flask, Docker, and Kubernetes. The project includes a backend service for CRUD (Create/Read/Update/Delete) operations, a separate service for search operations, and a MySQL database.
+- This project aims to deploy a Microservice Architecture-based Phonebook Web Application using Python Flask, Docker and Kubernetes. The project includes a backend service for CRUD (Create/Read/Update/Delete) operations, a separate service for search operations, and a MySQL database.
 
 # Installation
 
@@ -22,7 +22,7 @@ kubectl get pods -o wide
 ```
 git clone [GitHub_Repo_Link]
 cd [Project_Folder]
-helm install [Release_Name] .
+helm install [Release_Name] 
 ```
 
 ## Using the Application:
